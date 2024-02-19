@@ -11,8 +11,8 @@ modin_cfg.Engine.put("ray")
 os.environ["__MODIN_AUTOIMPORT_PANDAS__"] = "1"
 import modin.pandas as pd
 
-import ray
-ray.init()
+# import ray
+# ray.init()
 
 #####################################################################################
 

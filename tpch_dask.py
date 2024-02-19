@@ -8,8 +8,8 @@ path = os.environ['TPCH_DATASET_PATH']
 import modin.config as modin_cfg
 modin_cfg.Engine.put("dask")
 
-from dask.distributed import Client
-client = Client(processes=False)
+# from dask.distributed import Client
+# client = Client(processes=False)
 
 import modin.pandas as pd
 
