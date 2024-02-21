@@ -9,11 +9,12 @@ import modin.config as modin_cfg
 modin_cfg.Engine.put("ray")
 
 os.environ["__MODIN_AUTOIMPORT_PANDAS__"] = "1"
+
 import modin.pandas as pd
 
-# import ray
-# ray.init()
-
+# Warmup
+for _ in range(100):
+    print(pd.DataFrame([modin_cfg.MinPartitionSize.get() * modin_cfg.NPartitions.get()]).to_numpy())
 #####################################################################################
 
 def q1(li):
@@ -117,7 +118,29 @@ def main():
     print(res)
     print("Time: ", sum(times) / len(times), " ms")
 
+
+    print(">>> Q1 Results:")
+    times = []
+    for _ in range(5):
+        start = time.time()
+        res = q1(li)
+        end = time.time()
+        times.append(1000 * (end - start))
+    print(res)
+    print("Time: ", sum(times) / len(times), " ms")
+
     print("##############################################")
+
+    print(">>> Q6 Results:")
+    times = []
+    for _ in range(5):
+        start = time.time()
+        res = q6(li)
+        end = time.time()
+        times.append(1000 * (end - start))
+    print(res)
+    print("Time: ", sum(times) / len(times), " ms")
+
 
     print(">>> Q6 Results:")
     times = []

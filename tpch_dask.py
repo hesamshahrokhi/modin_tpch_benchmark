@@ -8,10 +8,10 @@ path = os.environ['TPCH_DATASET_PATH']
 import modin.config as modin_cfg
 modin_cfg.Engine.put("dask")
 
-# from dask.distributed import Client
-# client = Client(processes=False)
-
 import modin.pandas as pd
+
+for _ in range(100):
+    pd.DataFrame([modin_cfg.MinPartitionSize.get() * modin_cfg.NPartitions.get()]).to_numpy()
 
 #####################################################################################
 
@@ -116,6 +116,17 @@ def main():
     print(res)
     print("Time: ", sum(times) / len(times), " ms")
 
+
+    print(">>> Q1 Results:")
+    times = []
+    for _ in range(5):
+        start = time.time()
+        res = q1(li)
+        end = time.time()
+        times.append(1000 * (end - start))
+    print(res)
+    print("Time: ", sum(times) / len(times), " ms")
+
     print("##############################################")
 
     print(">>> Q6 Results:")
@@ -128,8 +139,18 @@ def main():
     print(res)
     print("Time: ", sum(times) / len(times), " ms")
 
-    print("##############################################")
 
+    print(">>> Q6 Results:")
+    times = []
+    for _ in range(5):
+        start = time.time()
+        res = q6(li)
+        end = time.time()
+        times.append(1000 * (end - start))
+    print(res)
+    print("Time: ", sum(times) / len(times), " ms")
+
+    print("##############################################")
 ##########################################################
 
 if __name__ == "__main__":
