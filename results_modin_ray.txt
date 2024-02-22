@@ -1,208 +1,7 @@
-#### Modin [Ray] Benchmark ####
-
-2024-02-21 20:32:31,702	INFO worker.py:1724 -- Started a local Ray instance.
-UserWarning: Distributing <class 'list'> object. This may take some time.
-[[128]]
-UserWarning: Distributing <class 'list'> object. This may take some time.
-[[128]]
-UserWarning: Distributing <class 'list'> object. This may take some time.
-[[128]]
-UserWarning: Distributing <class 'list'> object. This may take some time.
-[[128]]
-UserWarning: Distributing <class 'list'> object. This may take some time.
-[[128]]
-UserWarning: Distributing <class 'list'> object. This may take some time.
-[[128]]
-UserWarning: Distributing <class 'list'> object. This may take some time.
-[[128]]
-UserWarning: Distributing <class 'list'> object. This may take some time.
-[[128]]
-UserWarning: Distributing <class 'list'> object. This may take some time.
-[[128]]
-UserWarning: Distributing <class 'list'> object. This may take some time.
-[[128]]
-UserWarning: Distributing <class 'list'> object. This may take some time.
-[[128]]
-UserWarning: Distributing <class 'list'> object. This may take some time.
-[[128]]
-UserWarning: Distributing <class 'list'> object. This may take some time.
-[[128]]
-UserWarning: Distributing <class 'list'> object. This may take some time.
-[[128]]
-UserWarning: Distributing <class 'list'> object. This may take some time.
-[[128]]
-UserWarning: Distributing <class 'list'> object. This may take some time.
-[[128]]
-UserWarning: Distributing <class 'list'> object. This may take some time.
-[[128]]
-UserWarning: Distributing <class 'list'> object. This may take some time.
-[[128]]
-UserWarning: Distributing <class 'list'> object. This may take some time.
-[[128]]
-UserWarning: Distributing <class 'list'> object. This may take some time.
-[[128]]
-UserWarning: Distributing <class 'list'> object. This may take some time.
-[[128]]
-UserWarning: Distributing <class 'list'> object. This may take some time.
-[[128]]
-UserWarning: Distributing <class 'list'> object. This may take some time.
-[[128]]
-UserWarning: Distributing <class 'list'> object. This may take some time.
-[[128]]
-UserWarning: Distributing <class 'list'> object. This may take some time.
-[[128]]
-UserWarning: Distributing <class 'list'> object. This may take some time.
-[[128]]
-UserWarning: Distributing <class 'list'> object. This may take some time.
-[[128]]
-UserWarning: Distributing <class 'list'> object. This may take some time.
-[[128]]
-UserWarning: Distributing <class 'list'> object. This may take some time.
-[[128]]
-UserWarning: Distributing <class 'list'> object. This may take some time.
-[[128]]
-UserWarning: Distributing <class 'list'> object. This may take some time.
-[[128]]
-UserWarning: Distributing <class 'list'> object. This may take some time.
-[[128]]
-UserWarning: Distributing <class 'list'> object. This may take some time.
-[[128]]
-UserWarning: Distributing <class 'list'> object. This may take some time.
-[[128]]
-UserWarning: Distributing <class 'list'> object. This may take some time.
-[[128]]
-UserWarning: Distributing <class 'list'> object. This may take some time.
-[[128]]
-UserWarning: Distributing <class 'list'> object. This may take some time.
-[[128]]
-UserWarning: Distributing <class 'list'> object. This may take some time.
-[[128]]
-UserWarning: Distributing <class 'list'> object. This may take some time.
-[[128]]
-UserWarning: Distributing <class 'list'> object. This may take some time.
-[[128]]
-UserWarning: Distributing <class 'list'> object. This may take some time.
-[[128]]
-UserWarning: Distributing <class 'list'> object. This may take some time.
-[[128]]
-UserWarning: Distributing <class 'list'> object. This may take some time.
-[[128]]
-UserWarning: Distributing <class 'list'> object. This may take some time.
-[[128]]
-UserWarning: Distributing <class 'list'> object. This may take some time.
-[[128]]
-UserWarning: Distributing <class 'list'> object. This may take some time.
-[[128]]
-UserWarning: Distributing <class 'list'> object. This may take some time.
-[[128]]
-UserWarning: Distributing <class 'list'> object. This may take some time.
-[[128]]
-UserWarning: Distributing <class 'list'> object. This may take some time.
-[[128]]
-UserWarning: Distributing <class 'list'> object. This may take some time.
-[[128]]
-UserWarning: Distributing <class 'list'> object. This may take some time.
-[[128]]
-UserWarning: Distributing <class 'list'> object. This may take some time.
-[[128]]
-UserWarning: Distributing <class 'list'> object. This may take some time.
-[[128]]
-UserWarning: Distributing <class 'list'> object. This may take some time.
-[[128]]
-UserWarning: Distributing <class 'list'> object. This may take some time.
-[[128]]
-UserWarning: Distributing <class 'list'> object. This may take some time.
-[[128]]
-UserWarning: Distributing <class 'list'> object. This may take some time.
-[[128]]
-UserWarning: Distributing <class 'list'> object. This may take some time.
-[[128]]
-UserWarning: Distributing <class 'list'> object. This may take some time.
-[[128]]
-UserWarning: Distributing <class 'list'> object. This may take some time.
-[[128]]
-UserWarning: Distributing <class 'list'> object. This may take some time.
-[[128]]
-UserWarning: Distributing <class 'list'> object. This may take some time.
-[[128]]
-UserWarning: Distributing <class 'list'> object. This may take some time.
-[[128]]
-UserWarning: Distributing <class 'list'> object. This may take some time.
-[[128]]
-UserWarning: Distributing <class 'list'> object. This may take some time.
-[[128]]
-UserWarning: Distributing <class 'list'> object. This may take some time.
-[[128]]
-UserWarning: Distributing <class 'list'> object. This may take some time.
-[[128]]
-UserWarning: Distributing <class 'list'> object. This may take some time.
-[[128]]
-UserWarning: Distributing <class 'list'> object. This may take some time.
-[[128]]
-UserWarning: Distributing <class 'list'> object. This may take some time.
-[[128]]
-UserWarning: Distributing <class 'list'> object. This may take some time.
-[[128]]
-UserWarning: Distributing <class 'list'> object. This may take some time.
-[[128]]
-UserWarning: Distributing <class 'list'> object. This may take some time.
-[[128]]
-UserWarning: Distributing <class 'list'> object. This may take some time.
-[[128]]
-UserWarning: Distributing <class 'list'> object. This may take some time.
-[[128]]
-UserWarning: Distributing <class 'list'> object. This may take some time.
-[[128]]
-UserWarning: Distributing <class 'list'> object. This may take some time.
-[[128]]
-UserWarning: Distributing <class 'list'> object. This may take some time.
-[[128]]
-UserWarning: Distributing <class 'list'> object. This may take some time.
-[[128]]
-UserWarning: Distributing <class 'list'> object. This may take some time.
-[[128]]
-UserWarning: Distributing <class 'list'> object. This may take some time.
-[[128]]
-UserWarning: Distributing <class 'list'> object. This may take some time.
-[[128]]
-UserWarning: Distributing <class 'list'> object. This may take some time.
-[[128]]
-UserWarning: Distributing <class 'list'> object. This may take some time.
-[[128]]
-UserWarning: Distributing <class 'list'> object. This may take some time.
-[[128]]
-UserWarning: Distributing <class 'list'> object. This may take some time.
-[[128]]
-UserWarning: Distributing <class 'list'> object. This may take some time.
-[[128]]
-UserWarning: Distributing <class 'list'> object. This may take some time.
-[[128]]
-UserWarning: Distributing <class 'list'> object. This may take some time.
-[[128]]
-UserWarning: Distributing <class 'list'> object. This may take some time.
-[[128]]
-UserWarning: Distributing <class 'list'> object. This may take some time.
-[[128]]
-UserWarning: Distributing <class 'list'> object. This may take some time.
-[[128]]
-UserWarning: Distributing <class 'list'> object. This may take some time.
-[[128]]
-UserWarning: Distributing <class 'list'> object. This may take some time.
-[[128]]
-UserWarning: Distributing <class 'list'> object. This may take some time.
-[[128]]
-UserWarning: Distributing <class 'list'> object. This may take some time.
-[[128]]
-UserWarning: Distributing <class 'list'> object. This may take some time.
-[[128]]
-UserWarning: Distributing <class 'list'> object. This may take some time.
-[[128]]
-UserWarning: Distributing <class 'list'> object. This may take some time.
-[[128]]
-UserWarning: Distributing <class 'list'> object. This may take some time.
-[[128]]
 ##############################################
->>> Read CSV Time:  7931.93793296814  ms
+ Modin [Ray] Benchmark | os.environ["MODIN_RANGE_PARTITIONING_GROUPBY"] = "False"
+##############################################
+>>> Read CSV Time:  20325.993061065674  ms
 ##############################################
 >>> Q1 Results:
   l_returnflag l_linestatus     sum_qty  sum_base_price  sum_disc_price  sum_charge    avg_qty     avg_price      avg_disc   count_order
@@ -210,19 +9,45 @@ UserWarning: Distributing <class 'list'> object. This may take some time.
 1            N            F    991417.0    1.487505e+09        0.050093       38854  25.516472  38284.467761  1.413082e+09  1.469649e+09
 2            N            O  74476040.0    1.117017e+11        0.049997     2920374  25.502227  38249.117989  1.061182e+11  1.103670e+11
 3            R            F  37719753.0    5.656804e+10        0.050009     1478870  25.505794  38250.854626  5.374129e+10  5.588962e+10
-Time:  7237.206315994263  ms
+Time:  7099.1559982299805  ms
 >>> Q1 Results:
   l_returnflag l_linestatus     sum_qty  sum_base_price  sum_disc_price  sum_charge    avg_qty     avg_price      avg_disc   count_order
 0            A            F  37734107.0    5.658655e+10        0.049985     1478493  25.522006  38273.129735  5.375826e+10  5.590907e+10
 1            N            F    991417.0    1.487505e+09        0.050093       38854  25.516472  38284.467761  1.413082e+09  1.469649e+09
 2            N            O  74476040.0    1.117017e+11        0.049997     2920374  25.502227  38249.117989  1.061182e+11  1.103670e+11
 3            R            F  37719753.0    5.656804e+10        0.050009     1478870  25.505794  38250.854626  5.374129e+10  5.588962e+10
-Time:  7248.5339641571045  ms
+Time:  6798.636531829834  ms
 ##############################################
 >>> Q6 Results:
 123141078.2283
-Time:  5131.05731010437  ms
+Time:  3569.774866104126  ms
 >>> Q6 Results:
 123141078.2283
-Time:  5133.05741517487  ms
+Time:  3579.5934200286865  ms
+##############################################
+ Modin [Ray] Benchmark | os.environ["MODIN_RANGE_PARTITIONING_GROUPBY"] = "True"
+##############################################
+>>> Read CSV Time:  20700.228452682495  ms
+##############################################
+>>> Q1 Results:
+  l_returnflag l_linestatus     sum_qty  sum_base_price  sum_disc_price    sum_charge    avg_qty     avg_price  avg_disc  count_order
+0            A            F  37734107.0    5.658655e+10    5.375826e+10  5.590907e+10  25.522006  38273.129735  0.049985      1478493
+1            N            F    991417.0    1.487505e+09    1.413082e+09  1.469649e+09  25.516472  38284.467761  0.050093        38854
+2            N            O  74476040.0    1.117017e+11    1.061182e+11  1.103670e+11  25.502227  38249.117989  0.049997      2920374
+3            R            F  37719753.0    5.656804e+10    5.374129e+10  5.588962e+10  25.505794  38250.854626  0.050009      1478870
+Time:  8391.464281082153  ms
+>>> Q1 Results:
+  l_returnflag l_linestatus     sum_qty  sum_base_price  sum_disc_price    sum_charge    avg_qty     avg_price  avg_disc  count_order
+0            A            F  37734107.0    5.658655e+10    5.375826e+10  5.590907e+10  25.522006  38273.129735  0.049985      1478493
+1            N            F    991417.0    1.487505e+09    1.413082e+09  1.469649e+09  25.516472  38284.467761  0.050093        38854
+2            N            O  74476040.0    1.117017e+11    1.061182e+11  1.103670e+11  25.502227  38249.117989  0.049997      2920374
+3            R            F  37719753.0    5.656804e+10    5.374129e+10  5.588962e+10  25.505794  38250.854626  0.050009      1478870
+Time:  8037.854719161987  ms
+##############################################
+>>> Q6 Results:
+123141078.2283
+Time:  3666.0922527313232  ms
+>>> Q6 Results:
+123141078.2283
+Time:  3657.2827339172363  ms
 ##############################################

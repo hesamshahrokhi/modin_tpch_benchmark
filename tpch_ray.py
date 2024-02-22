@@ -8,6 +8,7 @@ path = os.environ['TPCH_DATASET_PATH']
 import modin.config as modin_cfg
 modin_cfg.Engine.put("ray")
 
+os.environ["MODIN_RANGE_PARTITIONING_GROUPBY"] = "False"
 os.environ["__MODIN_AUTOIMPORT_PANDAS__"] = "1"
 
 import modin.pandas as pd

@@ -16,14 +16,10 @@ path = "/home/hesam/Desktop/datasets/SF-1/"
 
 os.environ["TPCH_DATASET_PATH"] = path 
 
-print("#### Panadas Benchmark ####")
-os.system("python3.10 tpch_pandas.py")
-print("\n\n")
-
 print("#### Modin [Ray] Benchmark ####")
 os.system("python3.10 tpch_ray.py")
 print("\n\n")
 
-print("#### Modin [Dask] Benchmark ####")
-os.system("python3.10 tpch_dask.py")
+print("#### Panadas Benchmark ####")
+os.system("python3.10 tpch_pandas.py")
 print("\n\n")
